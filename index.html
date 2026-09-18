@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alaska's To-Do List — home repairs, painting, drywall, handyman services, property maintenance and seasonal cleanup.">
+<title>Alaska's To-Do List | We Get It Done!</title>
+<style>
+:root{--blue:#0797ff;--navy:#07111f;--ice:#eaf7ff;--white:#fff;--gray:#b9c7d4}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#06101d;color:var(--white);line-height:1.5}
+a{text-decoration:none;color:inherit}.wrap{max-width:1100px;margin:auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(3,10,18,.94);border-bottom:1px solid #17344d}
+.navin{display:flex;align-items:center;justify-content:space-between;min-height:70px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:20px}.brand span{color:var(--blue)}
+.navlinks{display:flex;gap:22px;font-weight:700;font-size:14px}.navlinks a:hover{color:var(--blue)}
+.hero{min-height:650px;display:flex;align-items:center;background:
+linear-gradient(90deg,rgba(2,8,15,.96),rgba(2,8,15,.62)),
+radial-gradient(circle at 75% 25%,#0d65a3 0,#08223b 35%,#020810 75%);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:auto -10% -80px -10%;height:230px;background:linear-gradient(170deg,transparent 48%,#0a4d79 49%,#06101d 72%);opacity:.65}
+.kicker{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:3px}
+h1{font-size:clamp(46px,8vw,86px);line-height:.95;margin:15px 0}.hero h1 span{color:var(--blue)}
+.hero p{max-width:650px;font-size:20px;color:var(--gray)}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{padding:15px 22px;border-radius:8px;font-weight:900;display:inline-block}.primary{background:var(--blue);color:#00111e}.secondary{border:2px solid #6dbcf0}
+section{padding:80px 0}.light{background:var(--ice);color:#07111f}.title{text-align:center;margin-bottom:42px}.title h2{font-size:40px;margin:5px}.title p{color:#607184}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#0b1a2b;border:1px solid #1b3a53;border-radius:14px;padding:26px}.light .card{background:#fff;border-color:#d6e4ee;box-shadow:0 8px 25px rgba(0,0,0,.06)}
+.icon{font-size:32px;color:var(--blue)}.card h3{margin:10px 0 8px}.card p{color:var(--gray)}.light .card p{color:#607184}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.checklist{list-style:none;padding:0}.checklist li{padding:10px 0;border-bottom:1px solid #20384c}.checklist li:before{content:"✓";color:var(--blue);font-weight:900;margin-right:10px}
+.cta{background:linear-gradient(135deg,#087fcf,#06375a);text-align:center}.cta h2{font-size:44px;margin:0 0 10px}
+footer{padding:28px 0;background:#02070d;color:#9aabb9}.footerin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:750px){.navlinks{display:none}.grid,.about{grid-template-columns:1fr}.hero{min-height:600px}.hero p{font-size:18px}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin">
+<a class="brand" href="#top">ALASKA'S <span>TO-DO LIST</span></a>
+<div class="navlinks"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div class="kicker">Reliable • Hard Working • Local • Alaska Proud</div>
+<h1>BIG OR SMALL...<br><span>WE GET IT DONE!</span></h1>
+<p>One call for the jobs on your list. Home repairs, painting, drywall, handyman work, property maintenance and seasonal cleanup.</p>
+<div class="buttons">
+<a class="btn primary" href="tel:+19072138378">CALL FOR A FREE ESTIMATE</a>
+<a class="btn secondary" href="sms:+19072138378?&body=Hi%20Alaska's%20To-Do%20List,%20I'd%20like%20a%20free%20estimate.">TEXT US</a>
+</div>
+</div></header>
+
+<section id="services" class="light"><div class="wrap">
+<div class="title"><h2>What We Do</h2><p>Tell us what's on your to-do list.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">⌂</div><h3>Home Repairs</h3><p>Repairs and improvements to keep your home looking and working right.</p></div>
+<div class="card"><div class="icon">▰</div><h3>Painting & Drywall</h3><p>Interior and exterior painting, drywall work, repairs and finishing.</p></div>
+<div class="card"><div class="icon">🔧</div><h3>Handyman Services</h3><p>Those projects that need an experienced set of hands.</p></div>
+<div class="card"><div class="icon">⚒</div><h3>Property Maintenance</h3><p>Practical maintenance work to help protect and maintain your property.</p></div>
+<div class="card"><div class="icon">❄</div><h3>Seasonal Prep</h3><p>Cleanup and seasonal preparation for Alaska living.</p></div>
+<div class="card"><div class="icon">✓</div><h3>Custom To-Do Lists</h3><p>Have a job that doesn't fit a category? Give us a call and ask.</p></div>
+</div></div></section>
+
+<section id="about"><div class="wrap about">
+<div><div class="kicker">Alaska's To-Do List</div><h2>Let's knock out that list.</h2><p style="color:#b9c7d4;font-size:18px">Whether it's one repair or a whole list of projects, we're ready to help. Get in touch and let's talk about what needs to get done.</p>
+<a class="btn primary" href="tel:+19072138378">Call (907) 213-8378</a></div>
+<div><ul class="checklist"><li>Reliable service</li><li>Hard-working approach</li><li>Local Alaska business</li><li>Free estimate by phone</li><li>Big jobs and small jobs</li></ul></div>
+</div></section>
+
+<section class="cta" id="contact"><div class="wrap">
+<h2>Got a job on your list?</h2><p>Call or text today to get started.</p>
+<div class="buttons" style="justify-content:center"><a class="btn" style="background:#fff;color:#06213a" href="tel:+19072138378">📞 (907) 213-8378</a><a class="btn" style="background:#00111e;color:#fff" href="sms:+19072138378">💬 Text Us</a></div>
+</div></section>
+
+<footer><div class="wrap footerin"><div><strong>Alaska's To-Do List</strong><br>Big or small... we get it done!</div><div>© 2026 Alaska's To-Do List</div></div></footer>
+</body>
+</html>
